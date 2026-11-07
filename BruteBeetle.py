@@ -51,7 +51,7 @@ class PasswordFound(Exception):
         super().__init__(password)
         self.password = password
 
-class VOID:
+class BruteBeetle:
     """
     VOID - Variable-Order Identification and Discovery.
 
@@ -150,5 +150,5 @@ class VOID:
 
 if __name__ == "__main__":
     vault = PasswordVault(password = PASSWORD)
-    void = VOID(vault=vault)
+    void = BruteBeetle(vault=vault)
     void.crack(length=len(PASSWORD))
