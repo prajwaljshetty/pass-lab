@@ -1,1 +1,0 @@
-self.attempts += 1
