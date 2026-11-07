@@ -3,7 +3,7 @@ import os
 import string
 import time
 
-PASSWORD = "abab"
+PASSWORD = "prajwal"
 
 class Color:
     PRIMARY = "\033[38;5;208m"
